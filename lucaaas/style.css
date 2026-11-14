@@ -1,71 +1,77 @@
-body{
-    background-color:#f0f0f0;
-    font-family: Arial; 
+* {
+    box-sizing: border-box;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #222;
 }
-footer{
-    background-color: #007bff
-    color #ffffff;
+
+header {
+    margin: 20px;
     padding: 20px;
+    background-color: #007bff;
+    color: #fff;
     border-radius: 5px;
     text-align: center;
 }
-header{
-    background-color: #007bff;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-}
-article{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
 
-}
-nav ul{
-    text-align: center;
-}
-nav ul li{
-    background-color: #007bff;
-    padding: 10px;
-    border-radius: 5px;
-}
-nav ul li a:hover{
-    color: #ffd700;
-    font-weight: bold;
-
-}
-nav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    gap: 20px;
-}
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-nav ul li{
-    width: 100px;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-article{
-    width: 300px;
-
-}
-main{
+nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 12px;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    padding: 10px 16px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
+article {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        margin: 12px;
+    }
+}
