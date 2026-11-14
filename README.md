@@ -1,22 +1,30 @@
-# Atividade de HTML e CSS
+# Página sobre os Objetivos de Desenvolvimento Sustentável
 
-Página acadêmica sobre 10 Objetivos de Desenvolvimento Sustentável (ODS), com navegação entre os conteúdos.
+Atividade acadêmica de desenvolvimento web. A página apresenta 10 Objetivos de Desenvolvimento Sustentável (ODS) e permite navegar entre os conteúdos por meio de links internos.
 
 ## Tecnologias
 
 - HTML
 - CSS
 
-## O que pratiquei
+## Conceitos praticados
 
-- Estrutura de uma página HTML
-- Links internos e navegação
+- Estrutura semântica básica do HTML
+- Links e navegação dentro da página
 - Estilização com CSS
-- Organização de conteúdo em cards
-- Layout responsivo com CSS Grid
+- Flexbox para organizar a navegação
+- CSS Grid para organizar os artigos
+- Ajustes de layout para telas menores
 
 ## Como visualizar
 
-Abra o arquivo `lucaaas/index.html` no navegador.
+1. Baixe ou clone este repositório.
+2. Abra a pasta `lucaaas`.
+3. Abra o arquivo `index.html` em um navegador.
 
-Atividade desenvolvida durante meus estudos.
+## Arquivos principais
+
+- `lucaaas/index.html`: estrutura e conteúdo da página.
+- `lucaaas/style.css`: estilos e organização do layout.
+
+Atividade desenvolvida para praticar fundamentos de HTML e CSS.
